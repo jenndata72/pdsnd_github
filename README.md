@@ -1,17 +1,17 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+## **Interactive Exploration of Bikeshare Dataset**
+Provides an interactive experience that answers interesting questions about 3 cities bikeshare data by computing descriptive stats based on city, month, and day which is selected by user. 
 
-### Date created
-Include the date you created this project and README file.
+### **Date created**
+Created 6/13/23
 
-### Project Title
-Replace the Project Title
+### **Files used**
+* bikeshare.py - Code for the interactive data exploration
+* chicago.csv - from bikeshare data - not included in remote repo
+* washington.csv - from bikeshare data - not included in remote repo
+* new_york_city.csv - from bikeshare data - not included in remote repo
 
-### Description
-Describe what your project is about and what it does
-
-### Files used
-Include the files used
+[bikeshare data through Motivate](https://motivateco.com/services)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Project #2
 
