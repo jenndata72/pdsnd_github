@@ -1,3 +1,5 @@
+#note: Need bikeshare data sets for chicago, new york city, and washington that are named as 'chicago.csv', 'new_york_city.csv', and 'washington.csv' respectively)
+
 import time
 import pandas as pd
 import numpy as np
