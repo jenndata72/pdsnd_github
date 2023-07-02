@@ -22,7 +22,7 @@ def get_filters():
 
     while True:
         try:
-            city = input("Please choose a city: chicago, new york city, washington: ").lower()
+            city = input("Please enter a city: chicago, new york city, washington: ").lower()
         
         except ValueError:
             print('This is not a valid entry!')
