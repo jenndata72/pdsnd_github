@@ -4,6 +4,8 @@ import time
 import pandas as pd
 import numpy as np
 
+pd.set_option("display.max_columns",200)
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -22,7 +24,7 @@ def get_filters():
 
     while True:
         try:
-            city = input("Please choose a city: chicago, new york city, washington: ").lower()
+            city = input("Please enter a city: chicago, new york city, washington: ").lower()
         
         except ValueError:
             print('This is not a valid entry!')
@@ -258,7 +260,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         display_raw_data(df)
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart to select different options? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
